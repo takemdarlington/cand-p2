@@ -1,0 +1,47 @@
+﻿Your Estimate
+Service Type,Components,Region,Component Price,Service Price
+Amazon EC2 Service (US East (N. Virginia)),,,,$5259.37
+,Compute:,US East (N. Virginia),$5258.72
+,Intra-Region Data Transfer:,US East (N. Virginia),$0.15
+,T2/T3 Unlimited vCPU for Linux  RHEL and SLES:,US East (N. Virginia),$0.5
+Amazon Route 53 Service,,,,$213.6
+,Hosted Zones:,Global,$0.5
+,Traffic Flow:,Global,$50
+,Standard Queries:,Global,$2
+,Latency Based Routing Queries:,Global,$1.2
+,Geo DNS Queries:,Global,$1.4
+,Basic Checks Within AWS:,Global,$5
+,HTTPS Checks Within AWS:,Global,$60
+,Resolver:,Global,$93.5
+Amazon CloudFront Service,,,,$2.88
+,Data Transfer Out:,Global,$2.56
+,Data Transfer Out to Origin:,Global,$0.3
+,Requests:,Global,$0.02
+Amazon RDS Service (US East (N. Virginia)),,,,$2719.29
+,DB instances:,US East (N. Virginia),$2269.2
+,Storage:,US East (N. Virginia),$50
+,I/O:,US East (N. Virginia),$400
+,Intra-Region Data Transfer:,US East (N. Virginia),$0.03
+,Inter-Region Data Transfer Out:,US East (N. Virginia),$0.06
+Amazon Elastic Load Balancing (US East (N. Virginia)),,,,$36.07
+,Classic LBs:,US East (N. Virginia),$18.3
+,Data Processed by Classic LBs:,US East (N. Virginia),$0.12
+,Application LBs:,US East (N. Virginia),$17.65
+Amazon CloudWatch Service (US East (N. Virginia)),,,,$0.5
+,Standard Alarms:,US East (N. Virginia),$0.5
+,Dashboard:,US East (N. Virginia),$0
+,Custom events:,US East (N. Virginia),$0
+Amazon SNS Service (US East (N. Virginia)),,,,$0
+,Requests:,US East (N. Virginia),$0
+,Notifications:,US East (N. Virginia),$0
+Amazon VPC Service (US East (N. Virginia)),,,,$33.72
+,NAT Gateway,US East (N. Virginia),$33.62
+,Inter - Region Data Transfer Out:,US East (N. Virginia),$0.1
+AWS Data Transfer In,,,,$0
+,US East (N. Virginia) Region:,Global,$0
+AWS Data Transfer Out,,,,$0.72
+,US East (N. Virginia) Region:,Global,$0.72
+AWS Support (Business),,,,$823.67
+,Support for all AWS services:,,$823.67
+,,Free Tier Discount:,,$-29.45
+,,Total Monthly Payment:,,$9060.37

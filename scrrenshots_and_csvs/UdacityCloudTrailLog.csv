@@ -1,0 +1,76 @@
+Event ID,Event time,User name,Event name,Resource type,Resources,AWS access key,AWS region,Error code,Source IP address
+932e9dcf-f886-4f7d-86f0-03949a05689f,"2020-03-13, 10:31:45 AM",CloudTrail,ConsoleLogin,,,,us-east-1,,154.72.150.32
+9a5edd75-52a5-4a80-9b5c-75cdeadee6de,"2020-03-13, 10:27:33 AM",CloudTrail,ChangePassword,,,,us-east-1,,154.72.150.32
+cfa4ba65-6cf5-48a4-adfc-3e5038c9d4c6,"2020-03-13, 10:26:52 AM",CloudTrail,ConsoleLogin,,,,us-east-1,,154.72.150.32
+0b489dce-dcb9-4783-a68d-6b00e1b8db58,"2020-03-13, 10:22:47 AM",root,ConsoleLogin,,,,us-east-1,,154.72.150.32
+969700d5-e148-45a6-8427-7bfdfbfdce46,"2020-03-13, 10:20:00 AM",HIDDEN_DUE_TO_SECURITY_REASONS,ConsoleLogin,,,,us-east-1,,154.72.150.32
+08d4029c-7861-4dc3-be7f-c3bdd7c88791,"2020-03-13, 10:19:37 AM",HIDDEN_DUE_TO_SECURITY_REASONS,ConsoleLogin,,,,us-east-1,,154.72.150.32
+126c12f6-d51e-49a2-94c6-2e44d6cb446e,"2020-03-13, 10:16:13 AM",Accountant,ChangePassword,,,,us-east-1,,154.72.150.32
+cf4ca2ca-535a-455e-b1a6-54f948193e2f,"2020-03-13, 10:15:21 AM",Accountant,ConsoleLogin,,,,us-east-1,,154.72.150.32
+d6c36af1-42ab-49ab-ae94-87314a95d59c,"2020-03-13, 10:10:22 AM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,154.72.150.32
+341398b1-5198-4bcf-a509-db9f3439b415,"2020-03-13, 10:10:20 AM",root,AttachUserPolicy,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/IAMUserChangePassword""}]",,us-east-1,,154.72.150.32
+53575a6c-4ed6-4eec-aec6-1366398ee443,"2020-03-13, 10:10:20 AM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,154.72.150.32
+d50201e8-a2d2-4d4f-a96e-3afbe37744a1,"2020-03-13, 10:10:19 AM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::355907690613:user/Accountant""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDAVFXOAMB2T7QMSOEPC""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""Accountant""}]",,us-east-1,,154.72.150.32
+82d565c1-a9c4-47ed-ba20-493389bcf9a3,"2020-03-13, 10:01:23 AM",root,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""}]",,us-east-1,,154.72.150.32
+d8cda370-6177-4835-a618-5f07f83ce1e7,"2020-03-13, 10:01:22 AM",root,AttachUserPolicy,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/IAMUserChangePassword""}]",,us-east-1,,154.72.150.32
+d9806069-2507-4741-bf41-06c3bbc8f448,"2020-03-13, 10:01:22 AM",root,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,154.72.150.32
+ed21125f-7c9b-4c30-88c1-9538b3d4ef91,"2020-03-13, 10:01:21 AM",root,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::355907690613:user/CloudTrail""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDAVFXOAMB27XFWCX2WH""}]",,us-east-1,,154.72.150.32
+99fb6040-66e2-485b-ab92-3fa8edbdbf80,"2020-03-13, 09:54:41 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/job-function/Billing""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,154.72.150.32
+e1200583-9e47-4c9e-b706-c0a98507c2e7,"2020-03-13, 09:54:41 AM",root,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::355907690613:group/Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPAVFXOAMB2WMMJOS6JB""}]",,us-east-1,,154.72.150.32
+4941ccf9-3b23-4242-89da-c023d62ff90f,"2020-03-13, 09:53:39 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,154.72.150.32
+6183aba5-36b6-4e67-8d95-1c9586d6742f,"2020-03-13, 09:53:39 AM",root,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailFullAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,154.72.150.32
+ba7eca56-2c73-42a2-a2b6-684625f73498,"2020-03-13, 09:53:39 AM",root,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPAVFXOAMB24JEX4AZUR""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::355907690613:group/CloudTrailAdmins""}]",,us-east-1,,154.72.150.32
+9926f192-2446-4726-92c0-46ab8d548e13,"2020-03-13, 09:49:29 AM",root,UpdateAccountPasswordPolicy,,,,us-east-1,,154.72.150.32
+58fff1ed-d2e1-4ec8-b6c5-1be8663ea470,"2020-03-13, 09:40:50 AM",root,ConsoleLogin,,,,us-east-1,,154.72.150.32
+,,,,,,,us-east-1,,129.0.79.254
+,,,,,,,us-east-1,,154.72.150.90
+,,,,,,,us-east-1,,154.72.150.90
+,,,,,,,us-east-1,,154.72.150.43
+,,,,,,,us-east-1,,129.0.79.238
+,,,,,,,us-east-1,,129.0.79.233
+,,,,,,,us-east-1,,129.0.79.233
+,,,,,,,us-east-1,,129.0.79.233
+,,,,,,,us-east-1,,154.72.153.199
+,,,,,,,us-east-1,,154.72.153.199
+,,,,,,,us-east-1,,154.72.153.203
+,,,,,,,us-east-1,,154.72.153.203
+,,,,,,,us-east-1,,154.72.153.203
+,,,,,,,us-east-1,,154.72.153.203
+,,,,,,,us-east-1,,154.72.153.203
+,,,,,,,us-east-1,,154.72.153.203
+,,,,,,,us-east-1,,154.72.153.203
+,,,,,,,us-east-1,,154.72.153.203
+,,,,,,,us-east-1,,154.72.153.198
+,,,,,,,us-east-1,,154.72.153.197
+,,,,,,,us-east-1,,154.72.150.50
+,,,,,,,us-east-1,,154.72.150.50
+,,,,,,,us-east-1,,154.72.150.50
+,,,,,,,us-east-1,,154.72.150.50
+,,,,,,,us-east-1,,154.72.150.50
+,,,,,,,us-east-1,,154.72.150.50
+,,,,,,,us-east-1,,154.72.150.50
+,,,,,,,us-east-1,,154.72.150.50
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.44
+,,,,,,,us-east-1,,154.72.150.28
+,,,,,,,us-east-1,PolicyNotAttachableException,154.72.150.28
+,,,,,,,us-east-1,,154.72.150.28
+,,,,,,,us-east-1,,154.72.150.28
+,,,,,,,us-east-1,,154.72.150.28
+,,,,,,,us-east-1,,154.72.150.28
+,,,,,,,us-east-1,HandshakeConstraintViolationException,154.72.150.28
+,,,,,,,us-east-1,,154.72.150.28
+,,,,,,,us-east-1,,154.72.150.28
+,,,,,,,us-east-1,,154.72.150.28
+,,,,,,,us-east-1,,154.72.150.28
+,,,,,,,us-east-1,,72.21.217.221
